@@ -1,0 +1,42 @@
+.sidebar {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sidebar_close {
+  padding-top: 1rem;
+  position: absolute;
+  right: 10px;
+}
+
+.sidebar_close svg {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.sidebar_links {
+  position: absolute;
+  top: 50px;
+}
+
+.sidebar_links li {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.sidebar_links li:hover {
+  color: grey;
+}
+
+.toggler {
+  display: none;
+}

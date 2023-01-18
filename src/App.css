@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+:root {
+  --color-bg: #adcce9;
+  --color-bg-varient: #f2f2f2;
+  --btn-color: #db545a;
+  --transition: all 200ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+}
+
+.container {
+  margin: 0 auto;
+}

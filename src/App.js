@@ -1,11 +1,19 @@
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import Resume from './components/Resume'
+import Home from './components/Home'
+import Navbar from './components/Navbar'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="App">
+    <main className="">
       <Navbar />
-    </div>
+      <Home />
+      <Resume />
+      <Portfolio />
+      <Contact />
+    </main>
   )
 }
 

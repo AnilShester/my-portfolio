@@ -1,8 +1,6 @@
 import { React, useState } from 'react'
 import countries from '../assets/portfolio/countries.png'
 import dashboadrd from '../assets/portfolio/dashboard.png'
-import nabvar from '../assets/portfolio/navbar.jpg'
-
 import todo from '../assets/portfolio/todo.png'
 import travel from '../assets/portfolio/travel.png'
 import Modal from '../UI/Modal'
